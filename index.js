@@ -1,4 +1,18 @@
 
+
+/*Loader*/
+// Wait for the page to fully load
+    window.addEventListener('load', () => {
+      const loader = document.getElementById('loader');
+      setTimeout(() => {
+        loader.classList.add('fade-out');
+        setTimeout(() => {
+          loader.style.display = 'none';
+        }, 500); // match with CSS transition
+      }, 1500); // delay for loader display (optional)
+    });
+/* */
+
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
