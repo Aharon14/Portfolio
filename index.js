@@ -2,10 +2,10 @@
 
 /* */
 window.addEventListener("load", () => {
-    const loader = document.querySelector(".loading");
-    setTimeout(() => {
-        loader.style.display = "none"; // Hide loader after loading
-    }, 1500); // Adjust time as needed
+  const loader = document.getElementById("loader");
+  setTimeout(() => {
+    loader.classList.add("fade-out");
+  }, 500); // delay before fade-out
 });
 
 
