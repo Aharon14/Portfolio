@@ -1,16 +1,4 @@
 
-
-/* Loader*/
-window.addEventListener("load", () => {
-  const loader = document.getElementById("loader");
-  setTimeout(() => {
-    loader.classList.add("fade-out");
-  }, 1500); // delay before fade-out
-});
-
-
-/* */
-
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
