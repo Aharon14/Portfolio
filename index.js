@@ -5,7 +5,7 @@ window.addEventListener("load", () => {
     const loader = document.querySelector(".loading");
     setTimeout(() => {
         loader.style.display = "none"; // Hide loader after loading
-    }, 2000); // Adjust time as needed
+    }, 1500); // Adjust time as needed
 });
 
 
