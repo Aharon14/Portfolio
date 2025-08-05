@@ -1,3 +1,16 @@
+
+
+/* Loader */
+window.addEventListener("load", () => {
+    const loader = document.querySelector(".loading");
+    setTimeout(() => {
+        loader.style.display = "none"; // Hide loader after loading
+    }, 2000); // Adjust time as needed
+});
+
+
+/* */
+
 const handleFirstTab = (e) => {
   if(e.key === 'Tab') {
     document.body.classList.add('user-is-tabbing')
