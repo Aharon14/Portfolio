@@ -14,6 +14,18 @@
 
 <body>
 
+ <!-- Loader -->
+  <div id="loader">
+    <div class="wave-loader">
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+
+
   <!-- ***** Header ***** -->
   <header class="header" role="banner" id="top">
     <div class="row">
@@ -43,67 +55,111 @@
     <section class="work" id="projects">
       <div class="row">
         <h2>Projects</h2>
-        <div class="work__boxes">
+          <div class="work__boxes">
 
-          <!-- project 1 -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Attendance Management System</h3>
-              <p>A web-based application to manage student attendance with role-based access. Built with JSP, Servlets, JDBC using MVC architecture.</p>
-              <ul class="work__list">
-                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>JSP</li><li>Servlets</li><li>JDBC</li><li>MySQL</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://github.com/Aharon14/Attendence-Management-System" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-                <a href="https://github.com/Aharon14/Attendence-Management-System" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Attendance Management System" />
-            </div>
-          </div>
+  <!-- ⭐ Project 1: Royyala Diary -->
+  <div class="work__box">
+    <div class="work__text">
+      <h3>Royyala Diary</h3>
+      <p>
+        A full-stack shrimp farming management system with authentication, pond tracking, and real-time data management. 
+        Built using Spring Boot and MySQL and deployed on Railway using Docker.
+      </p>
+      <ul class="work__list">
+        <li>Java</li>
+        <li>Spring Boot</li>
+        <li>MySQL</li>
+        <li>Hibernate</li>
+        <li>Docker</li>
+        <li>Railway</li>
+      </ul>
+      <div class="work__links">
+        <a href="https://royyala-dairy-production.up.railway.app/login" target="_blank" class="link__text">
+          Live Demo <span>&rarr;</span>
+        </a>
+        <a href="https://github.com/Aharon14/royyala-dairy" target="_blank">
+          <img src="./images/github.svg" class="work__code" alt="GitHub">
+        </a>
+      </div>
+    </div>
+    <div class="work__image-box">
+      <img src="./images/project-4.png" class="work__image" alt="Royyala Diary" />
+    </div>
+  </div>
 
-          <!-- project 2 -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Tic-Tac-Toe Game</h3>
-              <p>A simple two-player web game with turn-based logic, win animations, and responsive design built with HTML, CSS, and JavaScript.</p>
-              <ul class="work__list">
-                <li>HTML</li><li>CSS</li><li>JavaScript</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://aharon14.github.io/Tic-Tac-Toe" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-                <a href="https://github.com/Aharon14/Tic-Tac-Toe" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Tic Tac Toe" />
-            </div>
-          </div>
 
-          <!-- project 3 -->
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>A customizable personal portfolio website to showcase projects, skills, and experience. Built with clean and responsive UI.</p>
-              <ul class="work__list">
-                <li>HTML</li><li>CSS</li><li>JavaScript</li>
-              </ul>
-              <div class="work__links">
-                <a href="https://aharon14.github.io/My_portfolio" target="_blank" class="link__text">Visit Site <span>&rarr;</span></a>
-                <a href="https://github.com/Aharon14/My_portfolio" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Portfolio" />
-            </div>
-          </div>
+  <!-- Project 2 -->
+  <div class="work__box">
+    <div class="work__text">
+      <h3>Attendance Management System</h3>
+      <p>
+        A web-based application to manage student attendance with role-based access using JSP, Servlets, JDBC.
+      </p>
+      <ul class="work__list">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li>
+        <li>JSP</li><li>Servlets</li><li>MySQL</li>
+      </ul>
+      <div class="work__links">
+        <a href="https://github.com/Aharon14/Attendence-Management-System" target="_blank" class="link__text">
+          View Code <span>&rarr;</span>
+        </a>
+        <a href="https://github.com/Aharon14/Attendence-Management-System" target="_blank">
+          <img src="./images/github.svg" class="work__code" alt="GitHub">
+        </a>
+      </div>
+    </div>
+    <div class="work__image-box">
+      <img src="./images/project-1.png" class="work__image" alt="Attendance" />
+    </div>
+  </div>
+
+
+  <!-- Project 3 -->
+  <div class="work__box">
+    <div class="work__text">
+      <h3>Tic Tac Toe</h3>
+      <p>A two-player game built using JavaScript.</p>
+      <ul class="work__list">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li>
+      </ul>
+      <div class="work__links">
+        <a href="https://aharon14.github.io/Tic-Tac-Toe" target="_blank" class="link__text">
+          Live Demo <span>&rarr;</span>
+        </a>
+        <a href="https://github.com/Aharon14/Tic-Tac-Toe" target="_blank">
+          <img src="./images/github.svg" class="work__code" alt="GitHub">
+        </a>
+      </div>
+    </div>
+    <div class="work__image-box">
+      <img src="./images/project-2.png" class="work__image" alt="Tic Tac Toe" />
+    </div>
+  </div>
+
+
+  <!-- Project 4 -->
+  <div class="work__box">
+    <div class="work__text">
+      <h3>Portfolio Website</h3>
+      <p>A responsive personal portfolio website.</p>
+      <ul class="work__list">
+        <li>HTML</li><li>CSS</li><li>JavaScript</li>
+      </ul>
+      <div class="work__links">
+        <a href="https://aharon14.github.io/My_portfolio" target="_blank" class="link__text">
+          Live Demo <span>&rarr;</span>
+        </a>
+        <a href="https://github.com/Aharon14/My_portfolio" target="_blank">
+          <img src="./images/github.svg" class="work__code" alt="GitHub">
+        </a>
+      </div>
+    </div>
+    <div class="work__image-box">
+      <img src="./images/project-3.png" class="work__image" alt="Portfolio" />
+    </div>
+  </div>
+
+</div>
         </div>
       </div>
     </section>
@@ -149,7 +205,7 @@
               I enjoy working on both the visual and functional sides of a project, and I take pride in turning ideas into real, usable products.
               As a recent graduate, I bring a fresh perspective, a solid technical foundation, and a willingness to adapt and grow with every new challenge.
             </p>
-            <a href="https://drive.google.com/file/d/1XW82sA1Zzk60oNinVj7Gmoy7h4gD4UIy/view?usp=sharing" class="btn">My Resume</a>
+            <a href="https://drive.google.com/file/d/141PE1sUmtPVdQbsZfLAa1bosK9EHsPtw/view?usp=sharing" class="btn">My Resume</a>
           </div>
           <div class="about__photo-container">
             <img class="about__photo" src="./images/about.jpg" alt="About Me" height="550px" width="550px" />
